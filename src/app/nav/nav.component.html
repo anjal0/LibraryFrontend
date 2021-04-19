@@ -1,0 +1,11 @@
+<header class="navbar navbar-bright navbar-fixed-top" id="bar" role="banner">
+    <div class="card-header">
+      <a routerLink='/books'> Books </a>
+      <a routerLink='/authors'> Authors </a>
+      <a routerLink='/addbook' > Add Book </a>
+      <a routerLink='/addauthor'  > Add Author </a>
+      <a (click)='logout()'> Logout </a>
+    </div>
+  </header>
+
+  <!-- *ngIf='auth.loggedIn() -->
